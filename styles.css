@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body{
+    background-image: linear-gradient(to right top, #6282b5, #9e91bb, #c5a5bd, #dcbfc5, #e9dbd9);     
+}
+
+
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
+.mainbox{
+    display: flex;
+    justify-content: space-around;
+}
+.mainbox :hover{    
+    transform: scale(1.06);
+    transition: 0.2s;
+}
+
+div{
+    padding: 0;
+}
+.outer{
+    display: flex;    
+    justify-content: space-around;
+}
+
+.box1{
+    background-image: linear-gradient(to left bottom, #e9dbd9, #dcbfc5, #c5a5bd, #9e91bb, #6282b5);
+    width: 12rem;
+    /* background: whitesmoke; */
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.inside{
+    margin: 1rem;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;    
+    
+}
+h4{
+    font-family: 'Patrick Hand', cursive;    
+}
+
+h5{   
+    margin: 0;
+    font-size: 1rem;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    ;
+}
+
+span{
+    font-weight: normal;
+    font-size: 14px;
+    font-family: 'Patrick Hand', cursive;    
+}
+
+img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 8rem;
+}
+
+img:hover{
+    transform: none !important;
+}
