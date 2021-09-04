@@ -5,13 +5,6 @@ body{
     background-image: linear-gradient(to right top, #6282b5, #9e91bb, #c5a5bd, #dcbfc5, #e9dbd9);     
 }
 
-
-
-@keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
-  }
-
 .mainbox{
     display: flex;
     justify-content: space-around;
